@@ -1,3 +1,19 @@
-case_uri:
-case_assembly:
-case_name:
+case_uri: https://forome-dataset-public.s3.us-south.cloud-object-storage.appdomain.cloud/pgp3140_wgs_rtg1997.tar.gz
+case_assembly: 38
+case_name: pgp3140_wgs_rtg1997
+#archive:
+#  class: File
+#  path: pgp3140_wgs_rtg1997.tar.gz
+ocProject: anfisa-dev
+ocToken:
+ocServer:
+ocPod:
+
+bucket_name:
+access_key:
+secret_key:
+region_name: us-south
+output_format: json
+
+login:
+password:

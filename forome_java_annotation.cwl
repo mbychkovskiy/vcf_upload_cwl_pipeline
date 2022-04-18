@@ -6,14 +6,17 @@ baseCommand: ["bash"]
 arguments:
 - "/data/annotation/annotation_test.sh"
 - $(inputs.directory.path)/$(inputs.case_name).cfg
+
 inputs:
   case_name:
     type: string
   directory:
     type: Directory
+  output:
+    type: File
 
 outputs:
   out:
     type: stdout
 
-stdout: java_output.txt
+stdout: java_annotation.log

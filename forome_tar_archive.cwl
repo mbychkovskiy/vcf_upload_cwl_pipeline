@@ -21,4 +21,4 @@ outputs:
   archive:
     type: File
     outputBinding:
-      glob: "*"
+      glob: "*.tar.gz"
