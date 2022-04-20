@@ -47,10 +47,10 @@ archive:
 
 | Parameter      | Description                                                                                                               | Required  |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------| :------:  |
-| case_uri       | URL to the dataset archive                                                                                                | Optional* |
+| case_uri       | URL to the dataset archive                                                                                                | Yes*      |
 | case_assembly  | Look through the inventory file .cfg, specify assembly 37 or 38                                                           | Yes       |
 | case_name      | Name of the case                                                                                                          | Yes       |
-| archive        | Name of the archive with dataset. Archive should be placed to the the same folder with cwl pipeline                       | Optional* |
+| archive        | Name of the archive with dataset. Archive should be placed to the the same folder with cwl pipeline                       | Yes*      |
 | ocProject      | OpenShift project (namespace) name                                                                                        | Yes       |
 | ocToken        | Token of the service account to connect to OpenShift cluster                                                              | Yes       |
 | ocServer       | OpenShift server                                                                                                          | Yes       |
@@ -63,4 +63,4 @@ archive:
 | login          | Login name on the server where cwl pipeline runs                                                                          | Yes       |
 | password       | Password for the login                                                                                                    | Yes       |
 
-*should be choosen one of the parameter according to the run option.
+*should be specified one of the parameter according to the run option.
