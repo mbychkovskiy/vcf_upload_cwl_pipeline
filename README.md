@@ -13,7 +13,7 @@ source /data/astorage/venv/bin/activate
 ```
 
 Navigate to the folder with the cwl pipeline. There are two options to run the cwl pipeline:
-1. Run cwl pipeline for the dataset available by the public url
+1. Run cwl pipeline for the dataset archive available by the public url
 ```
 cwl-runner forome_vcf_upload_uri.cwl inp-job.yml
 ```
@@ -28,7 +28,7 @@ case_name: pgp3140_wgs_rtg1997
 #  path: pgp3140_wgs_rtg1997.tar.gz
 ```
 
-2. Run cwl pipeline for the dataset located on the server. In this case place archive to the same folder with cwl pipeline.
+2. Run cwl pipeline for the dataset archive located on the server. In this case place archive to the same folder with cwl pipeline.
 ```
 cwl-runner forome_vcf_upload_archive.cwl inp-job.yml
 ```
