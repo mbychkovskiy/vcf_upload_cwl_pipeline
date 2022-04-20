@@ -2,9 +2,8 @@
 
 class: CommandLineTool
 cwlVersion: v1.0
-baseCommand: ["bash"]
+baseCommand: ["bash", "/data/annotation/annotation_fg.sh"]
 arguments:
-- "/data/annotation/annotation_test.sh"
 - $(inputs.directory.path)/$(inputs.case_name).cfg
 
 inputs:
@@ -12,8 +11,6 @@ inputs:
     type: string
   directory:
     type: Directory
-  output:
-    type: File
 
 outputs:
   out:
