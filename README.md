@@ -43,6 +43,12 @@ archive:
   path: pgp3140_wgs_rtg1997.tar.gz
 ```
 
+Note: If dataset contains filename with illegal characters then run cwl-runner with argument ```--relax-path-checks```
+Example:
+```
+cwl-runner --relax-path-checks <cwl workflow> <input file>
+```
+
 ### CWL paratemeters (inp-job.yml)
 
 | Parameter      | Description                                                                                                               | Required  |
